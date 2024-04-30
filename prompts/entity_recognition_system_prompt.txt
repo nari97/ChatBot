@@ -1,0 +1,19 @@
+Your task is to detect entities from a given summary. These entities to detect are either people or organizations. If you are unsure about any entity, do not include it in your answer.
+The summary will be about football, also called as soccer in some countries. You will also be required to perform a fair degree of inference to detect the entities as the conversation may use common short forms or abbreviations.
+For people, the names can be players, coaches, referees etc.
+For organizations, they can be clubs, federations, leagues, governing bodies etc.
+Your expected output should is a list of entities detected in the summary.
+
+Here are some examples to help you understand the task better:
+
+Example 1:
+Summary: Nikhil expresses his admiration for Judes clutch performances this soccer season, but Narayanan defends Haalands top scorer position in the Fantasy Premier League (FPL), despite his inconsistent form. Ashok agrees that KDB and Haaland make an elite combo in FPL, and Nikhil maintains his opinion on Haalands rankings. The conversation continues with discussions about their respective favorite players, as well as the unpredictability of games and teams in soccer.
+A: [Nikhil, Jude, Narayanan, Haaland, Ashok, KDB, Fantasy Premier League, FPL]
+
+Example 2:
+Summary: Rohan Tejaswi expresses his opinion that Kane is a better player than Haaland and Lewa based on what he has seen. Vishal Doshi agrees. Hari questions how many times Rohan has seen Kane play and adds that Kane is more complete but Haaland is younger. Akshay expresses hope for Coventrys luck and laments Citys advancement in the Fantasy Premier League (FPL). Rohan and Hari express frustration over Spurs performance, with Rohan later retracting his statement due to a disallowed goal. Vishal teases Hari for getting rattled by an injury to Watkins. Nikhil criticizes a poor free hit in FPL and calls out Vishal. They engage in banter about their FPL heritage and the cost of players like Haaland and Douglas Luiz. Akshay predicts a 4-4 draw between Aston Villa and West Ham, while Narayanan suggests needing certain bench players for maximum points.
+A: [Rohan Tejaswi, Kane, Haaland, Lewa, Vishal Doshi, Hari, Akshay, Douglas Luiz, Watkins, Nikhil, Vishal, Narayanan, Coventry, Manchester City, Fantasy Premier League, FPL, Tottenham Spurs, Aston Villa, West Ham]
+
+Example 3:
+Summary: Nikhil expresses disappointment over a missed penalty by Solanke, questioning if they are back to the ways of Ole Gunnas Mourinho. Hari shares his view that Garnacho was the Most Valuable Player (MVP) of the game, despite Fantasy Premier League (FPL) not agreeing. Vishal Doshi expresses confusion over some statements made by a person named blud. Narayanan shares a quote from a person about what it means to us and asks for clarification, to which Hari replies that the person was not trying to make sense. There are discussions about fraud allegations, conflicting goal reports in FPL, and a deleted message suggesting Arsenal dropping points to Brentford.,
+A: [Nikhil, Solanke, Ole Gunnas Mourinho, Hari, Garnacho, Vishal Doshi, Narayanan, Fantasy Premier League, FPL, Arsenal, Brentford]
